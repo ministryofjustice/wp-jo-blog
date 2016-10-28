@@ -11,8 +11,8 @@
 #wrapper a, #footer a, #copyright a {color: #006d81;text-decoration: none; }
 
 #wrapper, #footer, #copyright {position: relative;width: auto;max-width: 1080px;margin: 0 auto;color: #222;background: transparent;font-family: "Gill Sans W01 Book", "Gill Sans MT Pro", "Gill Sans", GillSans, sans-serif;font-size: 18px;line-height: 1.4444444444;font-weight: 300;padding: 0;}
-#copyright {margin-top:20px;}
-#navigation { margin: 10px 30px; }
+#copyright {margin:20px 0;}
+#navigation { padding: 10px 30px; margin: 0; overflow: hidden; }
 #navigation ul  {margin: 0;padding: 0;}
 #navigation ul li, #navigation ul li a  {padding: 0; margin: 0 8px 0 0; color: #000;}
 #navigation ul li a { padding: 2px 3px 2px 3px; background:rgb(255,255,255); background: transparent\9; background:rgba(255,255,255,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff); zoom: 1;}
@@ -41,9 +41,10 @@ span.comment-date {font-size: .75em; color: #383838;}
 .strapline {
   clear: both;
   background-color: rgba(255, 255, 255, 0.75);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFffffff,endColorstr=#BFffffff); zoom: 1;
   color: #000;
   padding: 5px 15px 5px 30px;
   font-size: 1.35em;
   float: left;
-  margin: 20px 0 60px 0;
+  margin: 20px 0 50px 0;
 }
