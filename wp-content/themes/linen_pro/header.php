@@ -39,9 +39,14 @@
 		<div id="header" class="clear">
 			<div id="title">
 				<a href="<?php echo home_url( '/' ); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/hmcts-logo.png" alt="HM Courts &amp; Tribunals Service" /><span class="blogname"><?php echo bloginfo('name'); ?></span>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/jo-logo-sm.png" width="275" height="50" sizes="275px" srcset="<?php echo get_template_directory_uri(); ?>/images/jo-logo.png 567w" alt="Judicial Office" /><span class="blogname"><?php echo bloginfo('name'); ?></span>
 				</a>
 			</div>
+
+			<div class="strapline blogdescription">
+				<?php bloginfo('description'); ?>
+			</div>
+
 			<?php
 				wp_nav_menu(
 					array(
@@ -55,25 +60,4 @@
 			?>
 		</div><!--end header-->
 
-		<?php if ( (is_front_page() || $wp_query->is_posts_page) && !is_paged() && $linen->use_featured_header() ) { ?>
-			<?php get_template_part( 'tmpart-featured' ); ?>
-		<?php } ?>
-		<?php if (is_page_template( 'tm-left-sidebar.php' )) : ?>
-			<?php get_sidebar(); ?>
-		<?php endif; ?>
-		
-		<div id="featured" class="clear">
-			<div class="container">
-				<div id="slides">
-					<div class="slides_container">
-						<div id="slide-1" class="slide show-slide">
-							<div class="slide-content">
-								<p class="blogdescription"><?php bloginfo('description'); ?></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 		<div id="content" <?php if ( ( is_page_template( 'tm-no-sidebar.php' ) ) || ( $linen->sidebarDisable() == 'true' ) ) echo ( 'class="no-sidebar"' ); ?>>
