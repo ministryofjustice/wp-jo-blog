@@ -11,7 +11,7 @@
 #wrapper a, #footer a, #copyright a {color: #006d81;text-decoration: none; }
 
 #wrapper, #footer, #copyright {position: relative;width: auto;max-width: 1080px;margin: 0 auto;color: #222;background: transparent;font-family: "Gill Sans W01 Book", "Gill Sans MT Pro", "Gill Sans", GillSans, sans-serif;font-size: 18px;line-height: 1.4444444444;font-weight: 300;padding: 0;}
-#copyright {margin:20px 0;}
+#copyright {margin-top:20px; margin-bottom: 20px;}
 #navigation { padding: 10px 30px; margin: 0; overflow: hidden; }
 #navigation ul  {margin: 0;padding: 0;}
 #navigation ul li, #navigation ul li a  {padding: 0; margin: 0 8px 0 0; color: #000;}
