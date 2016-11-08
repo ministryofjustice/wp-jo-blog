@@ -58,8 +58,6 @@ if (!class_exists( 'Linen' )) {
 
 			add_filter( 'pre_get_posts', array( &$this, 'filter_front_page_posts' ), 10 );
 
-			$this->addCustomBackground();
-
 			parent::TTFCore();
 		}
 
@@ -70,13 +68,6 @@ if (!class_exists( 'Linen' )) {
 			add_image_size( 'featured', 652, 300, true );
 			add_image_size( 'index-thumb', 94, 94, true );
 			add_image_size( 'single', 620, 9999 );
-		}
-
-		/*---------------------------------------------------------
-			4. Add custom background
-		------------------------------------------------------------ */
-		function addCustomBackground() {
-			add_custom_background();
 		}
 
 		/*---------------------------------------------------------

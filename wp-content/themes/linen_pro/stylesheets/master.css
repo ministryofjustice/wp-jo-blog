@@ -46,7 +46,7 @@ img { -ms-interpolation-mode: bicubic; }
 /*---------------------------------------------------------
 	2. Body and links
 ------------------------------------------------------------ */
-body {font-size: 62.5%;	font-family: Georgia, Times, serif;	color: #333;	background-color: #d0d0d0;}
+body {font-size: 62.5%;	font-family: Georgia, Times, serif;	color: #333;	background-color: #fff;}
 a:link, a:visited {color: #1f2d61;	text-decoration: none;}
 a:hover {color: #434c6d;}
 
@@ -70,7 +70,7 @@ div.skip-content {display: none;}
 	4. Header
 ------------------------------------------------------------ */
 #header {padding: 30px;}
-#title {padding-bottom: 10px;	font-size: 3.6em;	font-family: Helvetica, Arial, sans-serif;	font-weight: normal;}
+#title {padding-bottom: 10px;	font-family: Helvetica, Arial, sans-serif;	font-weight: normal;}
 #title a:link, #title a:visited {color: #000;	text-decoration: none;}
 #title a:hover {color: #383838;	text-decoration: underline;}
 
@@ -80,7 +80,6 @@ svg { height: 200px;}
 #description h2 {font-size: 1.4em;	font-weight: normal;	font-style: italic;	color: #666;}
 /*Nav
 ---------------------------------------*/
-#navigation {margin: 30px 0 0 0;	border-top: 1px solid #efefef;	border-bottom: 1px solid #efefef;}
 .nav a {display: block;	padding: 15px 20px 15px 0;	font-size: 1.3em;	font-family: Helvetica, Arial, sans-serif;	color: #555;}
 .nav .current-menu-parent a,
 .nav .current-menu-ancestor a {color: #222;}
@@ -142,30 +141,6 @@ li.sfHover > a > .sf-sub-indicator {background-position: -10px -100px;}
 .nav ul li:hover > a > .sf-sub-indicator,
 .nav ul li.sfHover > a > .sf-sub-indicator {background-position: -10px 0;}
 
-/*---------------------------------------------------------
-	5. Featured slider
------------------------------------------------------------- */
-#featured {margin: 0 30px 50px 30px;	position: relative;	z-index: 0;}
-.container {width: 900px;	height: 300px;	position: relative;}
-#slides {position: absolute;	top: 0;	left: 0;}
-.slides_container {width: 900px;	height: 300px;	overflow: hidden;	position: relative;}
-#slides div.slide {position: absolute;	top: 0;	width: 900px;	display: none;	z-index: 100;}
-#slides div.show-slide {display: block;}
-.slide img {float: left;	width: 652px;	height: 300px;}
-.slide-content {position: relative;	float: right;	width: 188px;	height: 270px;	padding: 30px 20px 0 40px;	background: #ebeded;}
-.slide-content h2 {
-  margin-bottom: 15px;	font-size: 1.6em;	font-family: Helvetica, Arial, sans-serif;	font-weight: normal;	text-shadow: 0 1px 0 #fff;}
-.slide-content h2 a {color: #444;}
-.slide-content h2 a:hover {color: #1f2d61;	text-shadow: none;}
-.slide-content p {font-size: 1.2em;	line-height: 1.8em;	margin: 0 0 10px 0;}
-.slide-content a.more-link {display: block;	position: absolute;	bottom: 0;	right: 0;	padding: 10px 20px;	font-family: Helvetica, Arial, sans-serif;	color: #fff;	background: #333;}
-.slide-content a:hover.more-link {background: #000;}
-#slides a.prev,
-#slides a.next {display: none;	position: absolute;	top: 130px;	left: -50px;	width: 20px;	height: 40px;	opacity: .5;}
-#slides a.next {left: 930px;}
-#slides a:hover.prev,
-#slides a:hover.next {opacity: 1;	border-left: 1px solid #fff;}
-#slides a:hover.prev {left: -51px;	border-left: none;	border-right: 1px solid #fff;}
 /*---------------------------------------------------------
 	6. Post styling
 ------------------------------------------------------------ */

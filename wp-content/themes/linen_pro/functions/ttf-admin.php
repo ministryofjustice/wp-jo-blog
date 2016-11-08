@@ -58,6 +58,7 @@ if ( ! class_exists('TTFCore') ) {
 
 			if ( ! empty( $wp_admin_bar ) ) {
 				$wp_admin_bar->add_menu( array(
+					'id' => 'theme-options',
 					'parent' => 'appearance',
 					'title' => __( 'Theme Options' ),
 					'href' => admin_url('themes.php?page=ttf-admin.php'),
