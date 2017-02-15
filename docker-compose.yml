@@ -6,7 +6,7 @@ services:
       - .:/bedrock
     env_file: .env
     environment:
-      WP_ENV: production
+      WP_ENV: development
       VIRTUAL_HOST: joblog.docker
       SMTP_HOST: mailcatcher
       SMTP_PORT: 1025
