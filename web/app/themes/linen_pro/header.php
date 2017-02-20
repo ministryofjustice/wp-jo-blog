@@ -30,8 +30,7 @@
     
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/one.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/two.css">
-	<link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
-	
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin:400,700">
 </head>
 <body <?php body_class(); ?>>
 	<div class="skip-content"><a href="#content"><?php _e( 'Skip to content', 'linen' ); ?></a></div>
