@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "881d7c3cdd57b653a5430b06580bda57",
+    "content-hash": "034ace32156e03346844660478b16763",
     "packages": [
         {
             "name": "composer/installers",
@@ -256,6 +256,37 @@
             "time": "2017-01-11T19:10:05+00:00"
         },
         {
+            "name": "ministryofjustice/wp-rewrite-media-to-s3",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ministryofjustice/wp-rewrite-media-to-s3.git",
+                "reference": "a0c71b0a4e726ca0d691c789564286e4cfc53e5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice-wp-rewrite-media-to-s3-a0c71b0a4e726ca0d691c789564286e4cfc53e5d-zip-4bf303.zip",
+                "reference": "a0c71b0a4e726ca0d691c789564286e4cfc53e5d",
+                "shasum": "5a79b30287556ce1c3ea2ad08e834e96773b82f7"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Ollie Treend",
+                    "email": "ollie.treend@digital.justice.gov.uk"
+                }
+            ],
+            "description": "A WordPress plugin which rewrites media attachment URLs to S3.",
+            "support": {
+                "source": "https://github.com/ministryofjustice/wp-rewrite-media-to-s3/tree/0.1.0",
+                "issues": "https://github.com/ministryofjustice/wp-rewrite-media-to-s3/issues"
+            },
+            "time": "2016-02-19T16:35:01+00:00"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.0.2",
             "source": {
@@ -406,15 +437,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.6.1",
+            "version": "4.9.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9.6.1"
+                "reference": "tags/4.9.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
