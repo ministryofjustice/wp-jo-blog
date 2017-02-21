@@ -1,3 +1,3 @@
-# HMCTS Blog
+# Judicial Office Blog
 
-This repository contains the WordPress theme used for HMCTS’ blog.
+This repository contains the WordPress theme used for the Judicial Office blog.
