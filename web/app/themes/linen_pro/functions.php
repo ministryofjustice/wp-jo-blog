@@ -190,23 +190,3 @@ function linen_customizer_js() {
   wp_enqueue_script('linen_customizer', get_template_directory_uri() . '/javascripts/customizer.js', array('customize-preview', 'jquery'));
 }
 add_action('customize_preview_init', 'linen_customizer_js' );
-
-/**
- * Get the current version of WP
- *
- * This is provided for external resources to resolve the current wp_version
- *
- * @return string
- */
-function moj_wp_version()
-{
-    global $wp_version;
-    return $wp_version;
-}
-
-add_action('rest_api_init', function () {
-    register_rest_route('moj', '/version', array(
-        'methods' => 'GET',
-        'callback' => 'moj_wp_version'
-    ));
-});
