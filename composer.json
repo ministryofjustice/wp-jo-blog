@@ -49,8 +49,10 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+      "wpackagist-plugin/classic-editor": "*",
+      "wpackagist-plugin/fast-user-switching": "*",
     "ministryofjustice/wp-rewrite-media-to-s3": "^0.1.0",
-    "wpackagist-plugin/classic-editor": "*",
+      "ministryofjustice/wp-user-roles": "*",
       "ministryofjustice/wp-moj-components": "*"
   },
   "require-dev": {
@@ -58,7 +60,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "ministryofjustice/wp-user-roles"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
